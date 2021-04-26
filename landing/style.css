@@ -1,0 +1,158 @@
+body {
+  width: 1920px;
+  max-height: 6290px;
+
+  background: #fcfcfc;
+}
+header {
+  position: absolute;
+  width: 1920px;
+  height: 870px;
+  left: 0;
+  top: 0;
+}
+
+.header__div {
+  position: absolute;
+  width: 1800px;
+  height: 760px;
+  left: 88px;
+  top: auto;
+}
+
+nav {
+  position: absolute;
+  width: 1800px;
+  height: 90px;
+  left: 0;
+  top: 0;
+
+  background: rgba(252, 252, 252, 0.02);
+  border: 2px solid #f0f0f0;
+  box-sizing: border-box;
+}
+
+.nav__items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+
+  position: absolute;
+  width: 800px;
+  height: 28px;
+  left: 184px;
+  top: 33px;
+  list-style-type: none;
+}
+
+.nav__items__item {
+  flex: none;
+  flex-grow: 0;
+  margin-right: 130px;
+}
+
+#design-container {
+  margin-right: 0;
+}
+
+.nav-style {
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+  text-decoration: none;
+}
+
+.dark-blue {
+  color: #080029;
+}
+
+.logo {
+  position: absolute;
+  width: 51.87px;
+  height: 40px;
+  left: 18.85px;
+  top: 25px;
+}
+
+#header__img {
+  position: absolute;
+  width: 696px;
+  height: 673px;
+  left: 980px;
+  top: 170px;
+
+  border-radius: 5px;
+}
+
+#about {
+  position: static;
+  order: 0;
+  width: 54px;
+  left: 0;
+  top: 0;
+  font-weight: 500;
+}
+
+#map {
+  position: static;
+  order: 1;
+}
+
+#zoos {
+  order: 2;
+}
+
+#contact-us {
+  order: 3;
+}
+
+#design {
+  order: 4;
+}
+
+.profile {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  left: 1656px;
+  top: 19px;
+}
+
+/* side bar */
+.side-bar {
+  position: fixed;
+  width: 90px;
+  height: 760px;
+  /* left: 90px; */
+  top: 0;
+
+  background: rgba(252, 252, 252, 0.02);
+  border: 2px solid #f0f0f0;
+  box-sizing: border-box;
+  /* transform: rotate(90deg); */
+}
+
+.media {
+  position: absolute;
+  width: 24px;
+  height: 172px;
+  left: 33px;
+  top: 240px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.media-element {
+  margin: 50px 0;
+}
+
+.go-up-button {
+  position: absolute;
+  left: 21px;
+  top: 612px;
+}
