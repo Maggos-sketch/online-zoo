@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   width: 1920px;
   max-height: 6290px;
@@ -141,7 +145,7 @@ nav {
   width: 24px;
   height: 172px;
   left: 33px;
-  top: 240px;
+  top: 340px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -154,5 +158,97 @@ nav {
 .go-up-button {
   position: absolute;
   left: 21px;
-  top: 612px;
+  top: 660px;
+}
+
+/*  Watch your favorite animal online */
+.header-description {
+  position: relative;
+  width: 699px;
+  height: 488px;
+  left: 154px;
+  top: 245px;
+  padding: 0px;
+}
+
+.header-description h2 {
+  width: 112px;
+  height: 26px;
+  top: 2px;
+}
+
+.h2-tag {
+  position: absolute;
+  margin: 0;
+  font-family: Rubik, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.115em;
+  color: #626262;
+  left: 2px;
+}
+
+#dot {
+  position: absolute;
+  /* border: 2px solid #d00000; */
+  border-radius: 50%;
+  background: #d00000;
+  width: 14.31px;
+  height: 13.73px;
+  left: 139px;
+  top: 226.95px;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 106px;
+  margin: 0px;
+}
+
+.header-description-main {
+  position: absolute;
+  width: 697px;
+  height: 318px;
+  left: 2px;
+  top: 53px;
+}
+
+.header-button-form {
+  position: absolute;
+  width: 605px;
+  height: 67px;
+  left: 2px;
+  top: 421px;
+}
+
+.button-style_header {
+  width: 250px;
+  height: 61px;
+  border-radius: 5px;
+  border: 2px solid #080029;
+
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.dark-button {
+  background: #080029;
+  color: #fff;
+}
+
+.light-button {
+  background: #fff;
+  color: #080029;
+}
+
+#watch-header {
+  position: absolute;
+  left: 312px;
+  font-weight: 700;
 }
