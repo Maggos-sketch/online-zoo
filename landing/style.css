@@ -137,6 +137,7 @@ nav {
   border: 2px solid #f0f0f0;
   box-sizing: border-box;
   /* transform: rotate(90deg); */
+  z-index: 2;
 }
 
 .media {
@@ -254,10 +255,11 @@ h1 {
 
 /* how zoo works */
 .how-zoo-works-section {
-  position: relative;
+  position: absolute;
   width: 1920px;
   height: 980px;
   top: 870px;
+  left: 0;
 }
 
 .lion-pic {
@@ -333,4 +335,96 @@ h3 {
   width: 218px;
   background: #0f0049;
   border-color: #0f0049;
+}
+
+/* Famous pets */
+.famous-pets__section {
+  position: absolute;
+  width: 1920px;
+  height: 980px;
+  top: 1850px;
+  left: 0;
+  background: #d9e8ff;
+  z-index: 1;
+}
+
+.slider-txt-nav {
+  position: absolute;
+  width: 326px;
+  height: 364px;
+  left: 243px;
+  top: 305px;
+}
+
+#famous-pets {
+  width: 157px;
+  height: 26px;
+  left: 1px;
+  top: 12px;
+}
+
+.black-color {
+  color: #0b0b0b;
+}
+
+#famous-pets__description {
+  position: absolute;
+  width: 325px;
+  height: 156px;
+  left: 1px;
+  top: 88px;
+}
+
+.auto-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.slider-nav {
+  position: absolute;
+  width: 155px;
+  height: 65px;
+  left: 1px;
+  top: 299px;
+}
+
+.animal-cards {
+  position: relative;
+  width: 1064px;
+  height: 696px;
+  left: 612px;
+  top: 100px;
+  /* overflow-x: scroll; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.animal-card {
+  /* position: absolute; */
+  width: 328px;
+  height: 326px;
+  border-radius: 5px;
+}
+
+#first-pic {
+  background: url(media/pets/red-panda.png);
+}
+
+#second-pic {
+  background: url(media/pets/pinguin.png);
+}
+#third-pic {
+  background: url(media/pets/squrell.png);
+}
+#fourth-pic {
+  background: url(media/pets/panda.png);
+}
+#fifth-pic {
+  background: url(media/pets/eagle.png);
+}
+#sixth-pic {
+  background: url(media/pets/gorilla.png);
 }
