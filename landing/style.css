@@ -33,6 +33,8 @@ nav {
   background: rgba(252, 252, 252, 0.02);
   border: 2px solid #f0f0f0;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .nav__items {
@@ -77,8 +79,10 @@ nav {
   position: absolute;
   width: 51.87px;
   height: 40px;
-  left: 18.85px;
+  left: 16px;
   top: 25px;
+  margin: 0;
+  padding: 0;
 }
 
 #header__img {
@@ -400,10 +404,12 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  overflow: hidden;
 }
 
 .animal-card {
-  /* position: absolute; */
+  position: relative;
   width: 328px;
   height: 326px;
   border-radius: 5px;
@@ -411,20 +417,193 @@ h3 {
 
 #first-pic {
   background: url(media/pets/red-panda.png);
+  position: relative;
+  width: 328px;
+  height: 326px;
+  border-radius: 5px;
+
+  background-size: 100% 100%;
+  transition: background-size 0.3s ease-in;
 }
 
 #second-pic {
   background: url(media/pets/pinguin.png);
+  position: relative;
+  width: 328px;
+  height: 326px;
+  border-radius: 5px;
+
+  background-size: 100% 100%;
+  transition: background-size 0.3s ease-in;
 }
 #third-pic {
   background: url(media/pets/squrell.png);
+  position: relative;
+  width: 328px;
+  height: 326px;
+  border-radius: 5px;
+
+  background-size: 100% 100%;
+  transition: background-size 0.3s ease-in;
 }
 #fourth-pic {
   background: url(media/pets/panda.png);
+
+  position: relative;
+  width: 328px;
+  height: 326px;
+  border-radius: 5px;
+
+  background-size: 100% 100%;
+  transition: background-size 0.3s ease-in;
 }
 #fifth-pic {
   background: url(media/pets/eagle.png);
+  position: relative;
+  width: 328px;
+  height: 326px;
+  border-radius: 5px;
+
+  background-size: 100% 100%;
+  transition: background-size 0.3s ease-in;
 }
 #sixth-pic {
   background: url(media/pets/gorilla.png);
+  position: relative;
+  width: 328px;
+  height: 326px;
+  border-radius: 5px;
+
+  background-size: 100% 100%;
+  transition: background-size 0.3s ease-in;
+}
+
+#first-pic:hover {
+  background-size: 110% 110%;
+}
+#second-pic:hover {
+  background-size: 110% 110%;
+}
+#third-pic:hover {
+  background-size: 110% 110%;
+}
+#fourth-pic:hover {
+  background-size: 110% 110%;
+}
+#fifth-pic:hover {
+  background-size: 110% 110%;
+}
+#sixth-pic:hover {
+  background-size: 110% 110%;
+}
+
+.figure {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  left: 126px;
+  top: 163px;
+
+  border: 2px solid rgba(252, 252, 252, 0.6);
+  border-radius: 50%;
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.plus {
+  position: absolute;
+  width: 28px;
+  height: 64px;
+  left: 24px;
+  top: 5px;
+}
+
+.pic-position {
+  position: absolute;
+  width: 104px;
+  height: 21px;
+  left: 111px;
+  top: 282px;
+}
+.pic-description {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #fcfcfc;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.animal-card:hover .figure {
+  position: absolute;
+  width: 238px;
+  height: 238px;
+  left: 45px;
+  top: 30px;
+
+  background: rgba(11, 11, 11, 0.1);
+  border: 2px solid rgba(252, 252, 252, 0.3);
+}
+
+.animal-card:hover .pic-position {
+  position: absolute;
+  width: 101px;
+  height: 26px;
+  left: 117px;
+  top: 282px;
+}
+
+.animal-card:hover .descr-before {
+  display: none;
+}
+
+.animal-card .descr-after {
+  display: none;
+}
+
+.animal-card:hover .descr-after {
+  display: inline;
+}
+
+.descr-after > img {
+  position: absolute;
+  top: 4px;
+}
+
+.plus-before {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 145%;
+  text-align: center;
+
+  color: #fcfcfc;
+  opacity: 0.8;
+}
+
+.plus-after {
+  position: absolute;
+  width: 189px;
+  height: 28px;
+  left: 25px;
+  top: 100px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.animal-card:hover .plus-before {
+  display: none;
+}
+
+.animal-card .plus-after {
+  display: none;
+}
+
+.animal-card:hover .plus-after {
+  display: inline;
 }
