@@ -189,7 +189,7 @@ nav {
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
-  letter-spacing: 0.115em;
+  letter-spacing: 11.5%;
   color: #626262;
   left: 2px;
 }
@@ -634,4 +634,152 @@ h3 {
 #g-info {
   left: 3px;
   top: 81px;
+}
+
+/* pay and feed */
+.pay-and-feed-section {
+  position: absolute;
+  width: 1920px;
+  height: 1300px;
+  left: 0;
+  top: 2830px;
+
+  background: #fcfcfc;
+}
+
+#pay-feed {
+  position: absolute;
+  width: 132px;
+  height: 26px;
+  left: 428px;
+  top: 100px;
+}
+
+.step-container {
+  position: absolute;
+  width: 824px;
+  height: 312px;
+}
+
+.illustration {
+  position: absolute;
+  width: 312px;
+  height: 312px;
+  right: 62.14%;
+}
+
+#safe-container {
+  left: 428px;
+  top: 156px;
+}
+
+#delivery-container {
+  left: 980px;
+  top: 528px;
+}
+
+#meeting-container {
+  left: 244px;
+  top: 887px;
+}
+
+.group {
+  position: absolute;
+  width: 278px;
+  height: 214px;
+  left: 17px;
+  top: 52px;
+}
+
+#safe-ill {
+  background: url(media/pay-and-feed/safe.png);
+}
+
+#delivery-ill {
+  background: url(media/pay-and-feed/delivery.png);
+}
+
+#meeting-ill {
+  background: url(media/pay-and-feed/meeting.png);
+}
+
+.txt {
+  position: relative;
+  width: 456px;
+  height: 166px;
+  left: 368px;
+  top: 55px;
+}
+
+#delivery-txt {
+  top: 104px;
+}
+
+#meeting-txt {
+  height: 218px;
+  top: 41px;
+}
+
+.blue {
+  color: #0f0049;
+}
+
+#safe-step-name {
+  position: absolute;
+  width: 338px;
+  height: 52px;
+}
+
+#delivery-step-name {
+  position: absolute;
+  width: 440px;
+}
+
+#meeting-step-name {
+  position: absolute;
+  width: 363px;
+  height: 104px;
+}
+
+.step-description {
+  position: absolute;
+  width: 456px;
+  height: 84px;
+  top: 82px;
+}
+
+#meeting-description {
+  top: 134px;
+}
+
+#f-arrow {
+  position: absolute;
+  width: 194px;
+  height: 183px;
+  left: 980px;
+  top: 302px;
+}
+
+#s-arrow {
+  position: absolute;
+  width: 328px;
+  height: 143px;
+  left: 612px;
+  top: 690px;
+}
+
+#first-arrow {
+  position: absolute;
+  width: 197px;
+  height: 97px;
+  left: -78px;
+  top: 112.5px;
+}
+
+#second-arrow {
+  position: absolute;
+  width: 240.45px;
+  height: 194.46px;
+  left: 101.55px;
+  top: -15.46px;
 }
