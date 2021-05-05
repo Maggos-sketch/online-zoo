@@ -1,6 +1,6 @@
-html {
+/* html {
   overflow-x: hidden;
-}
+} */
 
 body {
   width: 1920px;
@@ -786,4 +786,120 @@ h3 {
   height: 194.46px;
   left: 101.55px;
   top: -15.46px;
+}
+
+/* testimonials */
+.testimonials-section {
+  position: absolute;
+  width: 1920px;
+  height: 616px;
+  top: 4046px;
+  left: 0;
+  background: #080029;
+}
+
+#testimonials-signature {
+  position: absolute;
+  width: 513px;
+  height: 292px;
+  left: 243px;
+  top: 100px;
+}
+
+.white {
+  color: #fcfcfc;
+}
+
+#test-head {
+  position: absolute;
+  width: 156px;
+  height: 26px;
+  left: 1px;
+}
+
+#test-main-head {
+  position: absolute;
+  width: 408px;
+  height: 52px;
+  left: 1px;
+  top: 88px;
+}
+
+#test-descr {
+  position: absolute;
+  width: 512px;
+  height: 112px;
+  left: 1px;
+  top: 180px;
+  margin: 0;
+}
+
+.st-button-form {
+  position: absolute;
+  width: 301px;
+  height: 64px;
+  left: 244px;
+  top: 452px;
+}
+
+#leave-feedback-button {
+  position: absolute;
+  width: 286px;
+  border: 2px solid #fcfcfc;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.reviews {
+  position: absolute;
+  width: 1064px;
+  height: 414px;
+  left: 796px;
+  top: 102px;
+  border: 2px solid cyan;
+}
+
+.see-rev-button {
+  position: absolute;
+  width: 218px;
+  height: 26px;
+}
+
+#see-more-revievs {
+  position: absolute;
+  width: 183px;
+  height: 21px;
+}
+
+.btn {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+#arr-m {
+  width: 21px;
+}
+
+.revievs-field {
+  position: relative;
+  width: 1064px;
+  height: 273px;
+  left: 0;
+  top: 46px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.reviev-area {
+  width: 512px;
+  height: 273px;
+  background: #fcfcfc;
+  border-radius: 15px;
+  margin: 0;
 }
