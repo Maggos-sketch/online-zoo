@@ -394,6 +394,10 @@ h3 {
   top: 299px;
 }
 
+.bb {
+  outline: none;
+}
+
 .animal-cards {
   position: relative;
   width: 1064px;
