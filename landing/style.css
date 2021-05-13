@@ -1187,3 +1187,86 @@ footer {
   margin-top: 0;
   margin-bottom: 15px;
 }
+
+.volunteer-support {
+  position: absolute;
+  width: 339px;
+  height: 257px;
+  left: 1348px;
+  top: 100px;
+}
+
+.volunteer-support p {
+  position: absolute;
+  width: 332px;
+  height: 84px;
+  top: 72px;
+  color: #bcbcbc;
+}
+
+.footer-donat-button {
+  position: absolute;
+  width: 339px;
+  height: 61px;
+  left: 0;
+  top: 196px;
+}
+
+#donate-button {
+  background: transparent;
+  border: 2px solid #fcfcfc;
+  width: 339px;
+  left: 0;
+}
+
+.socials {
+  position: absolute;
+  width: 339px;
+  height: 26px;
+  left: 1348px;
+  top: 442px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-link {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #bcbcbc;
+}
+
+.footer-line {
+  position: absolute;
+  width: 1432px;
+  height: 0;
+  left: 244px;
+  bottom: 132px;
+  background-color: #bcbcbc;
+}
+
+.footer-desc {
+  position: absolute;
+  width: 1432px;
+  height: 23px;
+  left: 244px;
+  top: 684px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscription {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #bcbcbc;
+}
