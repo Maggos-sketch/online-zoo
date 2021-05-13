@@ -23,7 +23,7 @@ header {
   top: auto;
 }
 
-nav {
+.header-nav {
   position: absolute;
   width: 1800px;
   height: 90px;
@@ -383,6 +383,13 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0;
+}
+
+.auto-layout-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding: 0;
 }
 
@@ -970,7 +977,6 @@ h3 {
   height: 862px;
   left: 0;
   top: 4662px;
-  border: 2px solid black;
 }
 
 #zoogeography-header {
@@ -1110,4 +1116,74 @@ h3 {
 
 .zoo-animal-marker:hover #panda-img {
   left: 22px;
+}
+/* footer */
+footer {
+  position: absolute;
+  width: 1920px;
+  height: 766px;
+  left: 0;
+  top: 5524px;
+  background: #0b0b0b;
+}
+
+.footer-logo {
+  position: absolute;
+  left: 244px;
+  top: 100px;
+}
+
+.logos {
+  position: absolute;
+  width: 303px;
+  height: 62px;
+  left: 244px;
+  top: 409px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.x-img {
+  width: 9px;
+  height: 19px;
+}
+
+.footer-navigation-container {
+  position: relative;
+  width: 200px;
+  height: 534px;
+  left: 796px;
+  top: 100px;
+}
+
+.footer-navigation-container h2 {
+  width: 133px;
+  height: 26px;
+  font-weight: 400;
+}
+
+.footer-nav {
+  position: relative;
+  width: 121px;
+  height: 318px;
+  left: 0;
+  top: 66px;
+}
+
+.inside-auto-layout {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 15px 0;
+}
+
+.footer-nav-color {
+  color: #bcbcbc;
+  text-decoration: none;
+}
+
+#f-elem {
+  margin-top: 0;
+  margin-bottom: 15px;
 }
