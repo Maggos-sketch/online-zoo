@@ -101,7 +101,10 @@ header {
   width: 54px;
   left: 0;
   top: 0;
-  font-weight: 500;
+}
+
+.nav-style:hover {
+  font-weight: 700;
 }
 
 #map {
@@ -131,17 +134,23 @@ header {
 
 /* side bar */
 .side-bar {
-  position: fixed;
+  position: sticky;
   width: 90px;
   height: 760px;
-  /* left: 90px; */
-  top: 0;
+  left: 90px;
+  top: 5px;
+  margin: 0;
+  padding: 0;
 
   background: rgba(252, 252, 252, 0.02);
   border: 2px solid #f0f0f0;
   box-sizing: border-box;
   /* transform: rotate(90deg); */
   z-index: 2;
+}
+
+.s-b {
+  height: 5516px;
 }
 
 .media {
@@ -251,10 +260,14 @@ h1 {
   color: #080029;
 }
 
+.light-button:hover {
+  background: #080029;
+  color: #fff;
+}
+
 #watch-header {
   position: absolute;
   left: 312px;
-  font-weight: 700;
 }
 
 /* how zoo works */
