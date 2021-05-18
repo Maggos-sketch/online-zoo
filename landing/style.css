@@ -101,6 +101,7 @@ header {
   width: 54px;
   left: 0;
   top: 0;
+  font-weight: 700;
 }
 
 .nav-style:hover {

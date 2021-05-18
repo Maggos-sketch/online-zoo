@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  max-width: 1920px;
+  max-height: 860px;
+}
+
+.hud {
+  position: relative;
+  width: 1800px;
+  height: 760px;
+  left: 60px;
+  top: 25px;
+  border: 2px solid black;
+}
+
+.online-zoo-head {
+  position: absolute;
+  visibility: hidden;
+}
+
+.x-line {
+  width: 1800px;
+  height: 90px;
+  left: 0;
+  top: 0;
+}
+
+.logo {
+  position: absolute;
+  left: 18.85px;
+  top: 25px;
+}
+
+.white {
+  background: #fcfcfc;
+  border: 2px solid #f0f0f0;
+  box-sizing: border-box;
+}
+
+.profile {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  left: 1661px;
+  top: 19px;
+}
+
+.auto-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.navigation {
+  position: absolute;
+  width: 798px;
+  height: 28px;
+  left: 184px;
+  top: 31px;
+  border: 2px solid purple;
+}
+
+.word-style {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.dark-blue {
+  color: #080029;
+}
+
+.current-section {
+  font-weight: bold;
+}
