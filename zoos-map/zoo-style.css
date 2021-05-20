@@ -61,7 +61,6 @@ body {
   height: 28px;
   left: 184px;
   top: 31px;
-  border: 2px solid purple;
 }
 
 .word-style {
@@ -77,4 +76,69 @@ body {
 
 .current-section {
   font-weight: bold;
+}
+
+.y-line {
+  position: absolute;
+  width: 90px;
+  height: 760px;
+  border: 2px solid chocolate;
+  top: 0;
+  left: 0;
+}
+
+.y-navigation {
+  position: relative;
+  width: 0;
+  height: 590px;
+  left: 45px;
+  top: 130px;
+}
+
+.butons {
+  width: 86px;
+  height: 86px;
+  border: none;
+  outline: none;
+}
+
+.up-button {
+  position: absolute;
+  left: -45px;
+  top: -40px;
+  background: url(media/up.png);
+}
+
+.down-button {
+  position: absolute;
+  left: -45px;
+  top: 542px;
+  background: url(media/down.png);
+}
+
+.animal-navigation {
+  position: absolute;
+  width: 55px;
+  height: 436px;
+  left: 15px;
+  top: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.el-button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #fcfcfc;
+}
+
+.width-blue {
+  border: 2px solid #d9e8ff;
+  box-sizing: border-box;
+}
+
+.el-button > img {
+  margin: auto;
 }
