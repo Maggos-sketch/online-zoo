@@ -1,0 +1,59 @@
+.head-section {
+  width: 1920px;
+  height: 845px;
+  left: 0;
+  top: 0;
+}
+
+.head-nav {
+  position: relative;
+  width: 1800px;
+  height: 90px;
+  left: 60px;
+  top: 25px;
+}
+
+.vertical-line {
+  position: absolute;
+  height: 86px;
+  width: 0px;
+  left: 90px;
+  top: 0;
+  border: 1px solid #f0f0f0;
+}
+
+.header-logo {
+  position: absolute;
+  width: 51.87px;
+  height: 40px;
+  left: 18.85px;
+  top: 25px;
+}
+
+.header-navigation {
+  position: absolute;
+  width: 798px;
+  height: 28px;
+  left: 184px;
+  top: 31px;
+}
+
+.navigation-disp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-navigation > a {
+  text-decoration: none;
+}
+
+#zoos {
+  font-weight: 500;
+}
+
+.profile {
+  position: absolute;
+  left: 1661px;
+  top: 19px;
+}

@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.white {
+  background: #fcfcfc;
+  border: 2px solid #f0f0f0;
+  box-sizing: border-box;
+}
+
+.auto-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.dark-blue {
+  color: #080029;
+}
+
+.body {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 154%;
+}
