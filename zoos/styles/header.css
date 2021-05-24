@@ -1,4 +1,4 @@
-.head-section {
+.main-section {
   width: 1920px;
   height: 845px;
   left: 0;
@@ -9,7 +9,6 @@
   position: relative;
   width: 1800px;
   height: 90px;
-  left: 60px;
   top: 25px;
 }
 
@@ -56,4 +55,49 @@
   position: absolute;
   left: 1661px;
   top: 19px;
+}
+
+.side-bar {
+  position: sticky;
+  width: 90px;
+  height: 630px;
+  left: 60px;
+  top: 113px;
+  border: 2px solid #f0f0f0;
+  margin: 0 0;
+  background: #fcfcfc;
+}
+
+.nav-button {
+  position: absolute;
+  border: none;
+  margin: 0 2px;
+  background: transparent;
+}
+
+.button-down {
+  top: 542px;
+}
+
+.animal-navigation {
+  position: absolute;
+  width: 55px;
+  height: 436px;
+  top: 95px;
+  left: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.animal-page {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.animal-img-position {
+  display: flex;
+  align-items: center;
 }

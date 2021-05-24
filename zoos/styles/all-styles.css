@@ -26,3 +26,26 @@
   font-size: 18px;
   line-height: 154%;
 }
+
+main * {
+  margin: 0 auto;
+}
+
+.light-blue {
+  border: 2px solid #609fff;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.wight-blue {
+  border: 2px solid #d9e8ff;
+  box-sizing: border-box;
+}
+
+.current-animal {
+  pointer-events: none;
+}
+
+.blue {
+  color: #0f0049;
+}
