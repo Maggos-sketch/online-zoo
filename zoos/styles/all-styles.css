@@ -49,3 +49,58 @@ main * {
 .blue {
   color: #0f0049;
 }
+
+.black {
+  color: #0b0b0b;
+}
+
+.gray {
+  color: #747474;
+}
+
+h4 {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 145%;
+}
+
+.donate-description {
+  position: absolute;
+  width: 336px;
+  height: 84px;
+  left: 1px;
+  top: 106px;
+}
+
+.button-padding {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.blue-button {
+  background: #0f0049;
+  border-radius: 5px;
+  border: none;
+}
+
+.inside-auto-layout {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.btn {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.white-color {
+  color: #fcfcfc;
+}

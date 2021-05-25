@@ -101,3 +101,96 @@
   display: flex;
   align-items: center;
 }
+
+.main-cam {
+  position: absolute;
+  width: 1615px;
+  height: 643px;
+  top: 161px;
+  left: 244px;
+}
+
+.animal-camera {
+  position: absolute;
+  width: 1064px;
+  height: 599px;
+  top: 44px;
+}
+
+.animal-camera > iframe {
+  position: absolute;
+  top: -44px;
+}
+
+.zoo-sub {
+  position: absolute;
+  width: 507px;
+  height: 110px;
+  left: 1104px;
+  top: 0;
+}
+
+.animal-profile-avatar {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+  background: url(../panda/media/panda-avatar.png);
+}
+
+.animal-profile-name {
+  font-size: 24px;
+  line-height: 28.44px;
+}
+
+.animal-profile-name-position {
+  position: absolute;
+  width: 417px;
+  height: 28px;
+  left: 90px;
+}
+
+.watch {
+  position: absolute;
+  left: 90px;
+  top: 30px;
+}
+
+.watch-count {
+  position: absolute;
+  width: 248px;
+  height: 28px;
+  left: 115px;
+  top: 27px;
+}
+
+.animal-profile-line {
+  position: absolute;
+  width: 420px;
+  border: 1px solid #e3e3e3;
+  top: 110px;
+}
+
+.call-to-donate {
+  position: absolute;
+  width: 511px;
+  height: 291px;
+  left: 1104px;
+  top: 150px;
+}
+
+.donate-header {
+  position: absolute;
+  width: 510px;
+  height: 76px;
+  left: 1px;
+  top: 0px;
+}
+
+.donate-button {
+  position: absolute;
+  width: 284px;
+  height: 61px;
+  left: 1px;
+  top: 230px;
+}
