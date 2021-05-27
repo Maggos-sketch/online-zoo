@@ -58,6 +58,14 @@ main * {
   color: #747474;
 }
 
+h3 {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 145%;
+}
+
 h4 {
   font-family: "Merriweather", serif;
   font-style: normal;
@@ -103,4 +111,8 @@ h4 {
 
 .white-color {
   color: #fcfcfc;
+}
+
+.white-hr {
+  border: 1px solid #fcfcfc;
 }

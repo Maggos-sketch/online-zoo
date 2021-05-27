@@ -1,0 +1,96 @@
+.other-cams {
+  position: absolute;
+  width: 1920px;
+  height: 441px;
+  top: 845px;
+  left: 0;
+}
+
+.other-cams-description {
+  position: absolute;
+  width: 234px;
+  height: 52px;
+  left: 246px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cams {
+  position: absolute;
+  width: 1432px;
+  height: 184px;
+  left: 244px;
+  top: 92px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.cams > li {
+  margin: 0;
+  list-style-type: none;
+}
+
+.cams > li > iframe {
+  margin: 0;
+  border-radius: 5px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.cams > li > div {
+  position: absolute;
+  width: 328px;
+  height: 184px;
+  z-index: 2;
+  display: none;
+}
+
+.cams > li:hover > div {
+  display: grid;
+  background: rgba(11, 11, 11, 0.4);
+  border-radius: 5px;
+  place-items: center;
+}
+
+.cams > li:hover > iframe {
+  border-radius: 5px;
+  filter: blur(2px);
+}
+
+.all-content-in-cam {
+  width: 150px;
+  height: 89px;
+}
+
+.all-content-in-cam > hr {
+  width: 150px;
+  height: 0;
+  opacity: 0.85;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.all-content-in-cam > form {
+  width: 87px;
+  height: 21px;
+}
+
+.all-content-in-cam > form > button {
+  width: 87px;
+  height: 21px;
+  background: transparent;
+  border: none;
+}
+
+.next-and-prev-form {
+  position: absolute;
+  width: 155px;
+  height: 65px;
+  left: 246px;
+  top: 316px;
+  display: flex;
+  justify-content: space-between;
+}
