@@ -116,3 +116,14 @@ h4 {
 .white-hr {
   border: 1px solid #fcfcfc;
 }
+
+.light-blue-color {
+  color: #609fff;
+}
+
+.category-name {
+  /*берем от .body*/
+  font-size: 26px;
+  line-height: 145%;
+}
+
