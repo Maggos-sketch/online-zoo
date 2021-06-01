@@ -1,0 +1,160 @@
+footer {
+  position: absolute;
+  width: 1920px;
+  height: 766px;
+  top: 3887px;
+
+  background: #0b0b0b;
+}
+
+.logo-position {
+  position: absolute;
+  left: 244px;
+  top: 100px;
+}
+
+.logos {
+  position: absolute;
+  width: 303px;
+  height: 62px;
+  left: 244px;
+  top: 409px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logos > * {
+  margin: 0;
+}
+.x {
+  position: absolute;
+  width: 9px;
+  height: 19px;
+  left: 142px;
+  top: 22px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* White */
+
+  color: #fcfcfc;
+}
+
+.navigation-container {
+  position: absolute;
+  width: 200px;
+  height: 534px;
+  left: 796px;
+  top: 100px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.footer-nav-pos {
+  position: absolute;
+  width: 121px;
+  height: 318px;
+  top: 66px;
+}
+
+.footer-nav > a {
+  margin: 0;
+  color: #bcbcbc;
+  text-decoration: none;
+}
+
+.support {
+  position: absolute;
+  width: 339px;
+  height: 257px;
+  left: 1348px;
+  top: 100px;
+}
+
+.support > h2 {
+  position: absolute;
+  width: 276px;
+  height: 26px;
+}
+
+.support > p {
+  position: absolute;
+  width: 332px;
+  height: 84px;
+  left: 0px;
+  top: 72px;
+  color: #bcbcbc;
+}
+
+.support > form {
+  position: absolute;
+  width: 339px;
+  height: 61px;
+  left: 0px;
+  top: 196px;
+}
+
+.footer-button {
+  position: absolute;
+  width: 339px;
+  height: 61px;
+  left: 0px;
+  top: 0px;
+
+  border: 2px solid #fcfcfc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.social {
+  position: absolute;
+  width: 353px;
+  height: 26px;
+  left: 1348px;
+  top: 442px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social > a {
+  margin: 0;
+  color: #bcbcbc;
+  text-decoration: none;
+}
+
+.footer-line {
+  position: absolute;
+  width: 1432px;
+  height: 0;
+  left: 244px;
+  bottom: 132px;
+  border: 1px solid #747474;
+}
+
+.copyright {
+  position: absolute;
+  width: 1432px;
+  height: 23px;
+  left: 244px;
+  top: 684px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright > span {
+  margin: 0;
+  color: #bcbcbc;
+}
