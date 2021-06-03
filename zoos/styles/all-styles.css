@@ -143,3 +143,11 @@ h4 {
   font-size: 16px;
   line-height: 145%;
 }
+
+.aside-container {
+  height: 3797px;
+}
+
+.aside-container > * {
+  z-index: 2;
+}
