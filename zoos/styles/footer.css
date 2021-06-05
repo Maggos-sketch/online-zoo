@@ -6,7 +6,9 @@ footer {
 
   background: #0b0b0b;
 }
-
+#eagle-footer {
+  top: 4053px;
+}
 .logo-position {
   position: absolute;
   left: 244px;

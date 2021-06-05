@@ -7,6 +7,10 @@
   background: #fcfcfc;
 }
 
+#eagle-ver {
+  height: 1387px;
+}
+
 .interesting-facts-header-container {
   position: absolute;
   width: 512px;
@@ -46,12 +50,27 @@
   border-bottom: 1px solid #609fff;
 }
 
+#eagle-species {
+  height: 154px;
+}
+
+#eagle-spec-des {
+  height: 56px;
+}
 #region {
   height: 182px;
 }
 
+#eagle-region {
+  height: 323px;
+}
+
 #nutrition {
   height: 322px;
+}
+
+#eagle-nutrition {
+  height: 574px;
 }
 
 .podinfo-header {
@@ -81,6 +100,14 @@
   height: 84px;
 }
 
+#eagle-habit-descr {
+  height: 224px;
+}
+
 #nutrition-descr {
   height: 224px;
+}
+
+#eagle-nutrition-descr {
+  height: 476px;
 }

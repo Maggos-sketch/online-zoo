@@ -138,6 +138,15 @@
   border-radius: 60px;
   background: url(../panda/media/panda-avatar.png);
 }
+#alligator-profile {
+  background: url(../crockodile/media/crockodile-avatar.svg);
+  background-repeat: no-repeat;
+}
+
+#eagle-profile {
+  background: url(../eagle/media/eagle-avatar.svg);
+  background-repeat: no-repeat;
+}
 
 .animal-profile-name {
   font-size: 24px;
