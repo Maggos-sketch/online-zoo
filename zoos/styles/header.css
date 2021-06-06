@@ -148,6 +148,11 @@
   background-repeat: no-repeat;
 }
 
+#gorilla-profile{
+  background: url(../gorilla/media/gorilla-avatar.svg);
+  background-repeat: no-repeat;
+}
+
 .animal-profile-name {
   font-size: 24px;
   line-height: 28.44px;
