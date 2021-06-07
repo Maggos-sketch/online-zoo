@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  width: 1920px;
+  height: 2067px;
+}
+
+#err-head {
+  position: absolute;
+  left: 60px;
+  background: #fff;
+  border: none;
+}
