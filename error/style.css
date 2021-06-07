@@ -14,3 +14,66 @@ body {
   background: #fff;
   border: none;
 }
+
+.about-404 {
+  position: absolute;
+  width: 873px;
+  height: 383px;
+  left: 524px;
+  top: 135px;
+}
+
+.about-404 > h3 {
+  position: absolute;
+  width: 474px;
+  height: 52px;
+  left: 199px;
+  top: 116px;
+  text-align: center;
+  z-index: 2;
+}
+
+.about-404 > p {
+  position: absolute;
+  width: 867px;
+  height: 74px;
+  left: 3px;
+  top: 198px;
+}
+
+.about-404 > span {
+  position: absolute;
+  width: 286px;
+  height: 181px;
+  left: 293px;
+  top: 0px;
+  z-index: 1;
+}
+
+.about-404 > button {
+  position: absolute;
+  width: 309px;
+  height: 61px;
+  left: 282px;
+  top: 322px;
+}
+
+.error-description {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.error-back-404 {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 181px;
+  text-align: center;
+
+  color: #d9e8ff;
+}
