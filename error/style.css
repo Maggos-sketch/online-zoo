@@ -77,3 +77,32 @@ body {
 
   color: #d9e8ff;
 }
+
+.an-video {
+  position: absolute;
+  left: 511px;
+  top: 598px;
+  border-radius: 5px;
+}
+
+.support-des {
+  position: absolute;
+  width: 425px;
+  height: 56px;
+  left: 748px;
+  top: 1165px;
+
+  text-align: center;
+}
+
+.support-des > a {
+  color: #3888ff;
+}
+
+#err-footer {
+  position: absolute;
+  width: 1920px;
+  height: 766px;
+  left: 0px;
+  top: 1301px;
+}
